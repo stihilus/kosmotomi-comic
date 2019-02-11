@@ -1,4 +1,4 @@
-# random-comic
+# kosmotomi-comic
 A Processing app to generate random comics.
 ![Comic](sampleComics.gif)
 
