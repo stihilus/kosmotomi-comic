@@ -1,6 +1,8 @@
 import processing.net.*;
 Client myClient;
 
+//lomz - 2019
+
 // CONTROLS:
 // 'r' : Randomize entire comic
 //       (click to randomize an individual panel)
