@@ -47,6 +47,7 @@ class Assets {
 
 	PImage getRandomBackground() {
 		int index = int(random(0, NUM_BACKGROUNDS));
+    print("test... ");
 		if(backgrounds[index] == null){
 			backgrounds[index] = loadImage(IMG_SRC_FOLDER + "/backgrounds/bg" + (index+1) + ".png");
 			setPixelDensity(backgrounds[index]);
