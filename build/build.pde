@@ -11,9 +11,9 @@ Client myClient;
 
 // ************************ //
 // *****  CONFIG **********//
-
+// U zagradi prvi broj se menja za WIN je 1 za MAC je 2
 // configurations:                  density, ppi, margin, scale, imgFolder, autosave
-Config CONFIG_FULL_RES = new Config(2,       600, 0.125,  0.24,  "600ppi",  false);
+Config CONFIG_FULL_RES = new Config(1,       600, 0.125,  0.24,  "600ppi",  false);
 
 // low res config for running on robot
 // thermal printer outputs 384px wide image
